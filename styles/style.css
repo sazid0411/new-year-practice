@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .font-title{
+    font-family: "Merriweather", serif;
+}
+.font-primary{
+    font-family: "Inter", serif;
+} */
+
+.banner-container{
+    width: 1320px;
+    height: 600px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#070211,rgba(7,2,17,0)),url(/images/Banner\ Image.png);
+    border-radius: 16px;
+}
+.banner-container  .banner-subtitle{
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    color: white;
+    margin-bottom:30px;
+    text-align: center;
+}
+.banner-container  .banner-title{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+.offer-container{
+    width: 803px;
+    height: 806px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-container .offer-title{
+    font-family: "Inter", serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+.offer-container .offer-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.offer-container .offer-desc p{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.offer-container .offer-desc h3{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+.vector{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background: linear-gradient(to right,#070211,rgba(7,2,17,0)),url(/images/Vectorrr.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+.vector .text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 126px;
+  
+
+
+}
+.vector .text-area h1{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    color: white;
+    font-weight: 800;
+}
+.vector .text-area p{
+    font-family: "Inter", serif;
+    color: rgba(255, 255,255, .8);
+    font-size: 17px;
+}
+.vector .text-area h4{
+    font-family: "Inter", serif;
+    color: white;
+    font-weight: 700;
+    margin-left: 28px;
+    font-size: 20px;
+}
+.vector img{
+    margin-right: 138px;
+}
+.address-section{
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 48px;
+}
+.address-section .address p{
+    text-align: center;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 32px
+}
+.address-section .address span{
+    color: red;
+}
+.btn{
+    width: 167px;
+    height: 56px;
+    background: red;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.new-offer{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.new-offer .new-offer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 22px;
+}
+.new-offer .new-offer-text .new-offer-subtitle{
+    
+    color: red;
+    font-family: "Inter", serif;
+    font-size: 24px;
+}
+.new-offer-description{
+    color:#070211;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    opacity: .6;
+
+}
+.new-offer .new-offer-text h2{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+   
+}
+
+.new-offer .new-offer-image{
+    height: 463px;
+    width: 463px;
+    border: 10px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.new-offer .new-offer-image img{
+    padding: 30px;
+}
+.text-right h1{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.text-right p{
+    margin: 20px 0;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    opacity: .6;
+}
+.text-right img{
+    margin-top: 60px;
+}
+.holiday-sale{
+    width: 1320px;
+    height: 987px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction:  column;
+    align-items: center ;
+    justify-content: center;
+    border-radius: 16px;
+    gap: 20px;
+
+}
+.holiday-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.holiday-text h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 800;
+}
+.holiday-text h1>span{
+  color: red;
+}
+.holiday-sub{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 24px;
+ 
+}
+.holiday-text-desc{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: .6;
+    text-align: center;
+}
+
+
+
+.holiday-image{
+    background-image: url(/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.margin-b{
+    margin-bottom: 300px;
+}
+
+.gift-sale{
+    width: 1320px;
+    height: 1163px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction:  column;
+    gap: 60px;
+    overflow: hidden;
+}
+
+.gift-sale .gift-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.gift-sale .gift-text .gift-sub{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: red;
+}
+.gift-sale .gift-text h1{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+.gift-text-desc{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: .6;
+}
+.gift-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.image{
+    width: 424px;
+    height: 440px;
+
+}
+
+.newsletter{
+    width: 1320px;
+    height: 616px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.newsletter h1{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+.newsletter p{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: .6;
+    text-align: center;
+}
+.input{
+    width: 648px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input[type=text]{
+    height: 100%;
+    width: 408px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.input input[type=submit]{
+    height: 100%;
+    width: 240px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0  40px 40px 0;   
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer{
+    width: 1920px;
+    height: 609px; 
+    background-color: #070211;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.footer .add{
+    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hr{
+    width: 80%; 
+    opacity: .2 ;
+
+}
+
+   
+
