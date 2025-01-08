@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#070211,rgba(7,2,17,0)),url(images/Banner\ Image.png);
+    background: linear-gradient(#070211,rgba(7,2,17,0)),url(../images/Banner\ Image.png);
     border-radius: 16px;
 }
 .banner-container  .banner-subtitle{
@@ -75,7 +75,7 @@
     width: 1320px;
     height: 600px;
     margin: 50px auto;
-    background: linear-gradient(to right,#070211,rgba(7,2,17,0)),url(images/Vectorrr.png);
+    background: linear-gradient(to right,#070211,rgba(7,2,17,0)),url(../images/Vectorrr.png);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -249,7 +249,7 @@
 
 
 .holiday-image{
-    background-image: url(images/Rectangle\ 2.png);
+    background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
