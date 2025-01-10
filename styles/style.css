@@ -13,7 +13,7 @@
 .banner-container{
     width: 1320px;
     height: 600px;
-    margin: 60px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@
 .offer-container{
     width: 803px;
     height: 806px;
-    margin: 60px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +74,7 @@
 .vector{
     width: 1320px;
     height: 600px;
-    margin: 50px auto;
+    margin: 120px auto;
     background: linear-gradient(to right,#070211,rgba(7,2,17,0)),url(../images/Vectorrr.png);
     display: flex;
     align-items: center;
@@ -120,9 +120,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 60px auto;
+    margin: 120px auto;
     gap: 48px;
     background: linear-gradient(rgba(255,0,0,.1),rgba(255,0,0,.02));
+    border-radius: 16px;
 }
 .address-section .address p{
     text-align: center;
@@ -149,7 +150,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 60px auto;
+    margin: 120px auto;
 }
 
 .new-offer .new-offer-text{
@@ -209,7 +210,7 @@
 .holiday-sale{
     width: 1320px;
     height: 987px;
-    margin: 60px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction:  column;
     align-items: center ;
@@ -245,6 +246,7 @@
     font-size: 20px;
     opacity: .6;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -253,6 +255,7 @@
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    border-radius: 16px;
 }
 .margin-b{
     margin-bottom: 300px;
@@ -261,7 +264,7 @@
 .gift-sale{
     width: 1320px;
     height: 1163px;
-    margin: 60px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction:  column;
     gap: 60px;
@@ -305,13 +308,14 @@
 .newsletter{
     width: 1320px;
     height: 616px;
-    margin: 60px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 60px;
     background-color: rgba(255,0,0,.08);
+    border-radius: 16px;
 }
 .newsletter h1{
     text-align: center;
@@ -378,7 +382,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 60px;
+    margin: 0 120px;
 }
 .social{
     display: flex;
@@ -386,10 +390,18 @@
     justify-content: center;
     gap: 15px;
 }
+.div-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
 
 .hr{
     width: 80%; 
-    opacity: .2 ;
+    opacity: .4 ;
 
 }
 
